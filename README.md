@@ -141,3 +141,8 @@ src/views: Main application pages.
 src/composables: (If you used useTheme.js or similar) Reusable reactive logic.
 
 ⚙️ Installation & Setup
+Node version >=18.3
+git clone https://github.com/torcoder/job-apps-vue3-project.git
+cd job-apps-vue3-project
+npm install
+npm run dev
