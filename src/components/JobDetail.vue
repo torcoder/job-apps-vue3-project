@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="flex justify-between">
-                  <span class="text-gray-600 dark:text-gray-400">İlan No:</span>
+                  <span class="text-gray-600 dark:text-gray-400">Ad Number:</span>
                   <span class="text-gray-900 dark:text-white font-medium">{{ job.id }}</span>
                 </div>
               </div>
@@ -103,7 +103,7 @@
           </div>
 
           <div class="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 border border-gray-200 dark:border-gray-700">
-            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Benzer İlanlar</h3>
+            <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Similar Ads</h3>
             <div class="space-y-4">
               <div v-for="similarJob in similarJobs" :key="similarJob.id"
                 class="border-b border-gray-200 dark:border-gray-600 pb-4 last:border-b-0 last:pb-0 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 p-2 rounded transition-colors"
