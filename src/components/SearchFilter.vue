@@ -5,14 +5,14 @@
       <div class="flex flex-col md:flex-row gap-4 items-end">
         <div class="flex-1">
           <label for="cars">Search position:</label>
-          <input v-model="searchQuery" @keydown="handleKeydown" type="text" placeholder="İş pozisyonu, şirket adı..."
+          <input v-model="searchQuery" @keydown="handleKeydown" type="text" placeholder="Job Title..."
             class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent" />
         </div>
         <div class="flex-1">
           <label for="cars">Choose a location:</label>
           <select v-model="locationQuery" name="cars" id="cars" form="carform"
             class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-            <option value="">Seçiniz</option>
+            <option value="">Select Option</option>
             <option v-for="location in locations" :value="location">{{ location }}</option>
           </select>
         </div>
